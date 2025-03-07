@@ -27,7 +27,7 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Image
+            <img
               className={styles.logo}
               src="/vercel.svg"
               alt="Vercel logomark"
