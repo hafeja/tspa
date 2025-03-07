@@ -1,6 +1,6 @@
 import Image from "next/image";
 import styles from "./page.module.css";
-const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
+import basePath from "../../next.config"
 console.log(basePath);
 
 export default function Home() {
