@@ -33,7 +33,7 @@ jobs:
         run: ls -la
       
       - name: Build with Next.js 🏗️
-        run: npx next build
+        run: next build
 
       - name: show workarea after build
         run: ls -la
