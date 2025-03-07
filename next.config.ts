@@ -7,10 +7,4 @@ const nextConfig: NextConfig = {
   assetPrefix: "/tspa",
 };
 
-module.exports = {
-  images: {
-    unoptimized: true,
-  },
-};
-
 export default nextConfig;

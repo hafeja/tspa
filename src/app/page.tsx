@@ -8,7 +8,7 @@ export default function Home() {
       <main className={styles.main}>
         <Image
           className={styles.logo}
-          src="/next.svg"
+          src={`${nextConfig.basePath}/next.svg`}
           alt="Next.js logo"
           width={180}
           height={38}
@@ -69,7 +69,7 @@ export default function Home() {
         >
           <Image
             aria-hidden
-            src="/window.svg"
+            src={`${nextConfig.basePath}/window.svg`}
             alt="Window icon"
             width={16}
             height={16}
@@ -83,7 +83,7 @@ export default function Home() {
         >
           <Image
             aria-hidden
-            src="/globe.svg"
+            src={`${nextConfig.basePath}/globe.svg`}
             alt="Globe icon"
             width={16}
             height={16}
