@@ -16,16 +16,14 @@ export default function Home() {
         />
         <ol>
           <li>
-            Get started by editing <code>src/app/page.tsx</code>.
+            Welcome to <code>this</code> webpage.
           </li>
-          <li>Save and see your changes instantly.</li>
+          <li>Good bye.</li>
         </ol>
-
         <div className={styles.ctas}>
           <a
             className={styles.primary}
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
+            href={`${nextConfig.basePath}/support`}
             rel="noopener noreferrer"
           >
             <Image
@@ -35,15 +33,21 @@ export default function Home() {
               width={20}
               height={20}
             />
-            Deploy now
+            Support
           </a>
           <a
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
             className={styles.secondary}
+            href={`${nextConfig.basePath}/about`}
+            rel="noopener noreferrer"
           >
-            Read our docs
+            <Image
+              className={styles.logo}
+              src={`${nextConfig.basePath}/vercel.svg`}
+              alt="Vercel logomark"
+              width={20}
+              height={20}
+            />
+            About
           </a>
         </div>
       </main>
