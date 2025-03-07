@@ -1,6 +1,6 @@
 import Image from "next/image";
 import styles from "./page.module.css";
-import basePath from "../../next.config"
+import nextConfig from "../../next.config"
 console.log(basePath);
 
 export default function Home() {
@@ -31,7 +31,7 @@ export default function Home() {
           >
             <Image
               className={styles.logo}
-              src={`${basePath}/vercel.svg`}
+              src={`${nextConfig.basePath}/vercel.svg`}
               alt="Vercel logomark"
               width={20}
               height={20}
@@ -56,7 +56,7 @@ export default function Home() {
         >
           <Image
             aria-hidden
-            src={`${basePath}/file.svg`}
+            src={`${nextConfig.basePath}/file.svg`}
             alt="File icon"
             width={16}
             height={16}
